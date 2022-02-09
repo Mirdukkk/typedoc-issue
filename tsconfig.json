@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "types"
+  ],
+  "include": [
+    "index.ts",
+    "work.ts",
+    "types.ts"
+  ]
+}
