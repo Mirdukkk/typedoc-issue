@@ -1,0 +1,162 @@
+{
+	"id": 0,
+	"name": "typedoc-issue",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "SomeConstType",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "types.ts",
+					"line": 18,
+					"character": 12
+				}
+			],
+			"type": {
+				"type": "query",
+				"queryType": {
+					"type": "reference",
+					"name": "SOME_CONST"
+				}
+			}
+		},
+		{
+			"id": 2,
+			"name": "doSomething",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "work.ts",
+					"line": 4,
+					"character": 16
+				}
+			],
+			"signatures": [
+				{
+					"id": 3,
+					"name": "doSomething",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"typeParameter": [
+						{
+							"id": 4,
+							"name": "K",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "literal",
+										"value": "valuenum1"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum2"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum3"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum4"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum5"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum6"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum7"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum8"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum9"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum10"
+									},
+									{
+										"type": "literal",
+										"value": "valuenum11"
+									}
+								]
+							}
+						}
+					],
+					"parameters": [
+						{
+							"id": 5,
+							"name": "key",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"id": 4,
+								"name": "K"
+							}
+						}
+					],
+					"type": {
+						"type": "indexedAccess",
+						"indexType": {
+							"type": "reference",
+							"id": 4,
+							"name": "K"
+						},
+						"objectType": {
+							"type": "reference",
+							"id": 1,
+							"name": "SomeConstType"
+						}
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				1
+			]
+		},
+		{
+			"title": "Functions",
+			"kind": 64,
+			"children": [
+				2
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "index.ts",
+			"line": 2,
+			"character": 0
+		}
+	]
+}
